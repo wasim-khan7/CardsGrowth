@@ -1,0 +1,12 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/tests/PlaidBankLinking.spec.ts
+/tests/PlaidBankLinking2.spec.ts
+/tests/example.spec.ts
+/tests/save.txt
+/tests/curls.txt
