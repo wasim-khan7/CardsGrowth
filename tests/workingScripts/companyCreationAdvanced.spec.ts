@@ -1,3 +1,4 @@
+// works fine
 import 'dotenv/config'; // Load environment variables from .env
 import { test } from '@playwright/test';
 import * as fs from 'fs';

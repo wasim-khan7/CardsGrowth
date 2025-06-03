@@ -1,0 +1,61 @@
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T14:05:15.656Z ===
+Company: WCP testscript3 1 1, Email: wasim.khan+testscript3_1@gomotive.com, CFS: 1, AuthToken: 
+Drivers created: None
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T14:12:27.637Z ===
+Company: Unknown, Email: N/A, CFS: 1, Creation status: Failed. Error info: envVariableLetter is not defined
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T14:13:30.980Z ===
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T14:14:33.765Z ===
+Company: WCP testscript3 3 1, Email: wasim.khan+testscript3_3@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/tests/driverWorker.js'
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T14:17:31.119Z ===
+Company: WCP testscript3 4 1, Email: wasim.khan+testscript3_4@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/tests/CompanyWithDriverScript/driverWorker.js'
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:12:09.946Z ===
+Company: WCP testscript3 5 1, Email: wasim.khan+testscript3_5@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/tests/CompanyWithDriverScript/driverWorker.js'
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:15:10.523Z ===
+Company: WCP testscript3 6 1, Email: wasim.khan+testscript3_6@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/PlaywrightAutomation/tests/CompanyWithDriverScript/CompanyWithDriverScript/driverWorker.js'
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:26:41.880Z ===
+Company: Unknown, Email: N/A, CFS: 1, Creation status: Failed. Error info: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://account.p.k2labs.org/sign-up", waiting until "load"[22m
+
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:27:01.512Z ===
+Company: WCP testscript3 7 1, Email: wasim.khan+testscript3_7@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/PlaywrightAutomation/tests/CompanyWithDriverScript/CompanyWithDriverScript/driverWorker.js'
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:37:27.954Z ===
+Company: WCP testscript3 8 1, Email: wasim.khan+testscript3_8@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/PlaywrightAutomation/tests/CompanyWithDriverScript/CompanyWithDriverScript/driverWorker.js'
+=============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:38:46.951Z ===
+Company: WCP testscript3 9 1, Email: wasim.khan+testscript3_9@gomotive.com, CFS: 1, Creation status: Failed. Error info: Cannot find module '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/PlaywrightAutomation/tests/CompanyWithDriverScript/CompanyWithDriverScript/driverWorker.js'
+=============================
+Driver: Driver testscript3 10_1_612 | Email: wasim.khan+driver+testscript3_10_1_809@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 10_2_341 | Email: wasim.khan+driver+testscript3_10_2_389@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 10_3_980 | Email: wasim.khan+driver+testscript3_10_3_401@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 10_4_300 | Email: wasim.khan+driver+testscript3_10_4_571@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 10_5_161 | Email: wasim.khan+driver+testscript3_10_5_610@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:40:45.962Z ===
+Company: WCP testscript3 10 1, Email: wasim.khan+testscript3_10@gomotive.com, CFS: 1, AuthToken: YzM3OGExNjBjOWRlZGY2NDI1ZjUyOGQ3NTFhZTMzM2FiNWU2MDk0ODhmZTU4Yjk2NDU4YmQwYTMxOTI4MDk5MjM2MDJiNGNlMGYyZGIxN2IzNTdmMDUzYzRlYjRjZTA0ZDI4YjAyNmVlNWEyMDlhNGMy
+Drivers created:
+  - Driver testscript3 10_1_612 | wasim.khan+driver+testscript3_10_1_809@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 10_2_341 | wasim.khan+driver+testscript3_10_2_389@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 10_3_980 | wasim.khan+driver+testscript3_10_3_401@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 10_4_300 | wasim.khan+driver+testscript3_10_4_571@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 10_5_161 | wasim.khan+driver+testscript3_10_5_610@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+=============================
