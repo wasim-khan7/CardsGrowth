@@ -55,13 +55,34 @@ function createDriver(index) {
     const name = `Driver ${driverContext} ${runNumber}_${index}_${randomDigits(3)}`;
     const email = `wasim.khan+driver+${driverContext}_${runNumber}_${index}_${randomDigits(3)}@gomotive.com`;
     const postData = JSON.stringify({
-      name,
-      email,
-      username: `driver${randomDigits(5)}`,
-      password: 'Nopass@1234',
-      phone: randomPhone()
-    });
+  role: 'driver',
+  first_name: name.split(' ')[0],
+  last_name: name.split(' ').slice(1).join(' ') || 'Last',
+  email,
+  username: `driver${randomDigits(5)}`,
+  password: 'Nopass@1234',
+  phone: randomPhone(),
+  phone_country_code: '+1',
+  phone_country_iso: 'US',
+  carrier_name: companyContext || 'Default Carrier Inc.',
+  carrier_street: '123 Main St',
+  carrier_city: 'Cleveland',
+  carrier_state: 'AL',
+  carrier_zip: '00952',
+  terminal_street: '',
+  terminal_city: '',
+  terminal_state: '',
+  terminal_zip: '',
+  time_zone: 'Central Time (US & Canada)',
+  eld_mode: 'exempt',
+  exemption_reason: 'ExemptReason',
+  dot_id: '',
+  drivers_license_number: `DL${randomDigits(6)}`,
+  drivers_license_state: 'AL',
+  time_tracking_mode: 'not_required'
+});
 
+    console.log('postData:', postData);
     const req = https.request(apiBaseUrl, {
       method: 'POST',
       headers: {

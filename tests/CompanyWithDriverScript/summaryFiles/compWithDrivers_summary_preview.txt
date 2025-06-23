@@ -59,3 +59,92 @@ Drivers created:
   - Driver testscript3 10_4_300 | wasim.khan+driver+testscript3_10_4_571@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
   - Driver testscript3 10_5_161 | wasim.khan+driver+testscript3_10_5_610@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
 =============================
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:49:49.855Z ===
+Company: WCP testscript3 11 1, Email: wasim.khan+testscript3_11@gomotive.com, CFS: 1, Creation status: Failed. Error info: first_name is not defined
+=============================
+Driver: Driver testscript3 12_1_891 | Email: wasim.khan+driver+testscript3_12_1_931@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 12_2_452 | Email: wasim.khan+driver+testscript3_12_2_016@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 12_3_914 | Email: wasim.khan+driver+testscript3_12_3_662@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 12_4_215 | Email: wasim.khan+driver+testscript3_12_4_938@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 12_5_337 | Email: wasim.khan+driver+testscript3_12_5_648@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:51:16.933Z ===
+Company: WCP testscript3 12 1, Email: wasim.khan+testscript3_12@gomotive.com, CFS: 1, AuthToken: NGYyZjM0OTEwM2ZhYzhmZjAxZjA0YTIwMmRkMTdjNTIyMWFkMzk1YWQzZDJkM2Q3M2NiYThhNDhlYzUxNjgwM2RhZmU2MGJiM2VkNGEyN2U4ZTVjNzBhMDQ1NmU5OWZiOTkxMDJmYzkxODFmZGY2NGY2
+Drivers created:
+  - Driver testscript3 12_1_891 | wasim.khan+driver+testscript3_12_1_931@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 12_2_452 | wasim.khan+driver+testscript3_12_2_016@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 12_3_914 | wasim.khan+driver+testscript3_12_3_662@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 12_4_215 | wasim.khan+driver+testscript3_12_4_938@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 12_5_337 | wasim.khan+driver+testscript3_12_5_648@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+=============================
+Driver: Driver testscript3 13_1_733 | Email: wasim.khan+driver+testscript3_13_1_740@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 13_2_625 | Email: wasim.khan+driver+testscript3_13_2_008@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 13_3_160 | Email: wasim.khan+driver+testscript3_13_3_976@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 13_4_257 | Email: wasim.khan+driver+testscript3_13_4_088@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+Driver: Driver testscript3 13_5_943 | Email: wasim.khan+driver+testscript3_13_5_590@gomotive.com | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+
+=== Run at Tuesday, June 3, 2025  2025-06-03T15:56:38.476Z ===
+Company: WCP testscript3 13 1, Email: wasim.khan+testscript3_13@gomotive.com, CFS: 1, AuthToken: MDMwNDMxMGY1YTFjZmY1MmM2ZDM1ZjlmOGMzOGQ4MDJkNjU3MGJiODJhZWFhMzA0Y2UzYjMzMWYzMzQzNDEwZDIzMDZiODZiMjEwNGM4YTJjN2U3NzU4NDYyNjcwYTJiNzAzZDRkYzM1MGExNTc2NWQw
+Drivers created:
+  - Driver testscript3 13_1_733 | wasim.khan+driver+testscript3_13_1_740@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 13_2_625 | wasim.khan+driver+testscript3_13_2_008@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 13_3_160 | wasim.khan+driver+testscript3_13_3_976@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 13_4_257 | wasim.khan+driver+testscript3_13_4_088@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+  - Driver testscript3 13_5_943 | wasim.khan+driver+testscript3_13_5_590@gomotive.com  | Status: FAILED | Error: {"error":"undefined method `user_role_feature_enabled?' for nil:NilClass"}
+=============================
+
+=== Run at Wednesday, June 4, 2025  2025-06-04T16:43:29.403Z ===
+Company: WCP RapidUpsells 1 1, Email: wasim.khan+rapidupsells_1@gomotive.com, CFS: 1, AuthToken: MTkwNmM0MGZiMjNiZDBkNzgwNjAzOWJhODE3NGYxZTdlODk4ZTdlYjg3YjBmMmQ1OWJjNDM1Mzc2ZmFmNTliNGJmYzI0NGJkN2M1YTI3MjNlMmU2ZDA1YTYxMWRmYTQ4NTk4M2M1ZWE1ODBlMTRkNGJm
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 2 9, Email: wasim.khan+rapidupsells_2@gomotive.com, CFS: 9, AuthToken: YjU3MTdhYjE5YTI5MTE2NDM2MjRhYzhjYWUzZTBhYzYxODhmZGJhMzIzMGM5NjQ0MTQ3MWQ1OTNlMmIyNjk0YjI0NTkwYzYzZjM4Nzg2ZjU1NjU5Yzc0NDVjMzJlZTEyMDc5YzExY2Q1MTVlOGVmZTgz
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 3 10, Email: wasim.khan+rapidupsells_3@gomotive.com, CFS: 10, AuthToken: NDBjYmM5MTE2ZDM2MmFjZjdjZjc0OGZhODRhYmIyNDBhZTU1YzgyMjgxZjZhNWRlZTM4ZjJkMDBiZjkyNDk3MWNjZjQzOTYzMzczYTFjNTc1NzU2NTU5ZmYxZGUzYmI2YTg4MmU5NzVjMDdiMzExZTRk
+Drivers created: None
+=============================
+
+=== Run at Wednesday, June 4, 2025  2025-06-04T16:43:29.385Z ===
+Company: WCP RapidUpsells 10 150, Email: wasim.khan+rapidupsells_10@gomotive.com, CFS: 150, AuthToken: MmJhYWVmYzMyMTA4NGQ1ZjFjN2I1NjA1MjA0ODg1OGQ5NzIzOTM0NWUwYjFhZjIzZTkzY2NlNTg2YTAyZWFhZTkzYmZhMWIyOWU1ZGFhMzk4M2JkMTFjMTg2NzNmNTgwOGEyZmU5Y2FmNjY1YjYzNWUw
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 11 151, Email: wasim.khan+rapidupsells_11@gomotive.com, CFS: 151, AuthToken: ZWE3ZGQ0MzgyNzY2ZWNhNTdlN2ZhMTJmZDA5MzU1ZDE0MzJiZDZjZDkwYzRmYWJmN2ViNTg4NDExZjhlMmVkZGNkMjkyOTAyMTA0ZGM5NDBhNjM0MTRhYmI4YTQ4MTE4NWJiNjAwMDU0Y2ExZjEzOGM2
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 12 151, Email: wasim.khan+rapidupsells_12@gomotive.com, CFS: 151, AuthToken: NjQxNDViNzU1YTM0ZGI4MjY3MWQ5MzRkY2ZkZDVjZDlkN2ZkODEwZjcyYjQ1MGMxNGZmYWQwYjQ5NTk3YjZmM2M1Y2Q4MzAxMDI3MjFmYTUxN2M1OTljZDk1MTc2M2QwNWJiOGMwZGU2YmY2NDk1ZWMz
+Drivers created: None
+=============================
+
+=== Run at Wednesday, June 4, 2025  2025-06-04T16:43:29.426Z ===
+Company: WCP RapidUpsells 4 11, Email: wasim.khan+rapidupsells_4@gomotive.com, CFS: 11, AuthToken: OGJhZjMzNzFmMTM3MDY4MGMxYmE4YTNjZGY4Mjk2MWRiNmE1NDhkNGRkNmRhZjYwMDhjZDkyOWU0YTE1MzAxNjMyYzc2MjIzNjUyM2NjZDcyYzhkNGEzZjAxYzA3ZWNmZjkyOTUzMTg4MmFiOTc1NGUx
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 5 49, Email: wasim.khan+rapidupsells_5@gomotive.com, CFS: 49, AuthToken: NDU3YjM2ZWMzOWVlZDE1MzUzYjU1NGI1YzJmZTUwYmNiMDNkNzQ2OWQ1NDhkMWE2MGJkOTk1NjVlYTUxOWJkMGI2MWRjNmExNjkzY2IxYTFkNTNkNTJhOWNlMGQ4MTM5YmFlODA2NjAwMjM2OTIzOTNl
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 6 50, Email: wasim.khan+rapidupsells_6@gomotive.com, CFS: 50, AuthToken: Y2QwNDQ4NGEyZDczZWZjMDVlMGI4MDI2NmE0YjAxZWIwNmNlNTVhYTdkZjdkM2UzYjc5ZGZmZGU4ZTNlMTNjYmIwMzBmYjY3ZjM3YWIzNzY5YzBiODY4NTY5Yzc0YmYzMWVhOTA4MzNlNDc4NWUzZWUz
+Drivers created: None
+=============================
+
+=== Run at Wednesday, June 4, 2025  2025-06-04T16:43:29.405Z ===
+Company: WCP RapidUpsells 7 51, Email: wasim.khan+rapidupsells_7@gomotive.com, CFS: 51, AuthToken: MDllYjgzZWQ1YzhkM2IwYzVlNDM0YzhjNDY0ODUwNGE5ZTM4MmU1MmM2NDcyNzlmMDY4Njc4YzRkYWM4ZDdjMGE1MzViNjYyNjQ1NmMzNTgxYzFiYjJmZjIyZmQzNjRiZmRhYTE0ODY2NzZiYjU1YWI5
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 8 149, Email: wasim.khan+rapidupsells_8@gomotive.com, CFS: 149, AuthToken: OTFmMjhjNDZhOTU2NzI2YzYzNGRkZDkyNGY4MGJhNGZiNzQ5OWI5YzI3MGNmM2ZiNjQ1ZDc3NTA4Y2MyMDZhNWM0M2NmODc1NzUzMDk0NDY0YWVlZWUwOGQ5YzNmMWU2ZTJhMmFiNjlhZGM2Y2Y0MmIz
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 9 149, Email: wasim.khan+rapidupsells_9@gomotive.com, CFS: 149, AuthToken: M2M0MDhjZDVlYTQ5NjEyNWJhODgwNGM1NjZjZjFkNjFjM2ZlMDljMGQyYzAzMTU2OWFmNjg4YzgyNzM2ODFiZTExMmNkZmFmMjFkMGUxZTkzYTcxYTUwYjEyZjdhODUwMjhhMGRiYjYyMjNhNzMyOWIx
+Drivers created: None
+=============================
+
+=== Run at Wednesday, June 4, 2025  2025-06-04T16:43:29.380Z ===
+Company: WCP RapidUpsells 13 999, Email: wasim.khan+rapidupsells_13@gomotive.com, CFS: 999, AuthToken: NjdlNGY0ZjIxOGVhOTA5MWM2YTUzZDBmNDk2OGY0ODVmNWI1MDQ5NTc3NTBkMDIyZjhiYjA3NjUwMTJmMDQ3NDZmMjQ0MGUwOTIxY2I4ZThjZjI5ZWNhZGE0NzUwNzlmZTEzMWEwMGY2YWM3MTYxN2Yz
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 14 1000, Email: wasim.khan+rapidupsells_14@gomotive.com, CFS: 1000, AuthToken: NzBjODQ1NzkxYWM1ZjcyMTkxNWJlZThjNGVlNTJlZWVhZjkyOGYzODI1ODQ0MmM2NjdkZmVmOTYwMzEwMTFlZWUzYWI3YzJiZGY2NjQzZGVhNTIwNjg4ZDM1M2YwODQ4NTc5ODNkZDg0NmFlMTg1ZDc2
+Drivers created: None
+=============================
+Company: WCP RapidUpsells 15 1500, Email: wasim.khan+rapidupsells_15@gomotive.com, CFS: 1500, AuthToken: MmNlOWQ0NTExNWIxODVkZmZmNGI4NDc1MzNlN2M1OGMzYzljYTNiZmNjMTdiNjMxYTdjZDdjNzQzY2IxNzdmNGE4YWNkMTIwYzk4MTdjNTAyZDJkMmI1Zjg0NjlkNjZjMjJlZjU3YTNiNjA4NDJkNTFi
+Drivers created: None
+=============================

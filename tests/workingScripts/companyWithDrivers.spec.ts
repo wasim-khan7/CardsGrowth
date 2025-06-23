@@ -7,12 +7,12 @@ import axios from 'axios';
 
 // ---- User configuration section ----
 let totalRuns = 1;
-let runStartCount = 8;
-const numberOfDriversPerCompany = 5;
+let runStartCount = 1;
+const numberOfDriversPerCompany = 2;
 let environment = 'preview'; // 'preview' or 'staging'
-let CompanyNameContext = 'WComp';
-let driverContext = 'WComp';
-const CFS = [1, 5, 10, 11, 49, 50, 51, 750, 999, 1234];
+let CompanyNameContext = 'RUEnt120';
+let driverContext = 'RUEnt120';
+const CFS = [50,150,151,800];
 const customBaseEmail = 'custom.email@yourdomain.com';
 
 

@@ -5,11 +5,11 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // ---- User configuration section ----
-let totalRuns = 4;
-let runStartCount = 1;
-let environment = 'preview'; // 'preview' or 'staging'
-let CompanyNameContext = 'AG_test';
-const CFS = [1, 51, 999, 10000];
+let totalRuns = 1;
+let runStartCount = 2;
+let environment = 'staging'; // 'preview' or 'staging'
+let CompanyNameContext = 'wtest';
+const CFS = [1, 50, 150, 999];
 
 // Flags
 const useCFSArray = true;
@@ -62,65 +62,66 @@ for (let i = 0; i < totalRuns; i++) {
     const totalVehicles = useCFSArray ? CFS[i] : Number(randomDigits(2)) + 1;
 
     const contextName = useContextName ? CompanyNameContext : randomAlphaNumeric(8);
-    const baseEmail = useWasimEmailAsBaseEmail ? 'wasim.khan@gomotive.com' : customBaseEmail;
+    const baseEmail = useWasimEmailAsBaseEmail ? 'parag.goyal@gomotive.com' : customBaseEmail;
 
-    test(`Company Creation Run ${runCount}`, async ({ browser }) => {
-        let email = '';
-        let companyName = '';
-        try {
-            test.setTimeout(60000);
-            const context = await browser.newContext({
-                httpCredentials: {
-                    username: process.env.AUTH_USER1 || '',
-                    password: process.env.AUTH_PASS1 || ''
-                }
-            });
+test(`Company Creation Run ${runCount}`, async ({ browser }) => {
+    let email = '';
+    let companyName = '';
+    try {
+        const context = await browser.newContext();
+        const page = await context.newPage();
+        await context.setHTTPCredentials({
+            username: process.env.AUTH_USER1,
+            password: process.env.AUTH_PASS1
+        });
+        await page.goto(`https://account.${envVariableLetter}.k2labs.org/sign-up`);
+        await context.setHTTPCredentials({
+            username: process.env.AUTH_USER2,
+            password: process.env.AUTH_PASS2
+        });
+        await page.getByRole('textbox', { name: 'First Name' }).fill('Muhammad Wasim');
+        await page.getByRole('textbox', { name: 'Last Name' }).fill('Khan');
+        await page.getByRole('textbox', { name: '(222) 222-' }).fill(randomPhoneNumber());
+        await page.getByRole('textbox', { name: 'Extension' }).fill(randomDigits(5));
+        await page.getByRole('textbox', { name: 'example@website.com' }).click();
 
-            const page = await context.newPage();
-            await page.goto(`https://account.${envVariableLetter}.k2labs.org/sign-up`);
-            await page.getByRole('textbox', { name: 'First Name' }).fill('Muhammad Wasim');
-            await page.getByRole('textbox', { name: 'Last Name' }).fill('Khan');
-            await page.getByRole('textbox', { name: '(222) 222-' }).fill(randomPhoneNumber());
-            await page.getByRole('textbox', { name: 'Extension' }).fill(randomDigits(5));
-            await page.getByRole('textbox', { name: 'example@website.com' }).click();
+        const emailContextName = contextName.replace(/\s+/g, '_').toLowerCase();
+        const [local, domain] = baseEmail.split('@');
+        email = `${local}+${emailContextName}_${runCount}@${domain}`;
+        await page.getByRole('textbox', { name: 'example@website.com' }).fill(email);
 
-            const emailContextName = contextName.replace(/\s+/g, '_').toLowerCase();
-            const [local, domain] = baseEmail.split('@');
-            email = `${local}+${emailContextName}_${runCount}@${domain}`;
-            await page.getByRole('textbox', { name: 'example@website.com' }).fill(email);
+        await page.locator('#user_password').fill('Nopass@1234');
+        await page.getByText('I have read and accept the').click();
+        await page.getByRole('button', { name: 'Next' }).click();
+        await page.locator('#company_name').click();
 
-            await page.locator('#user_password').fill('Nopass@1234');
-            await page.getByText('I have read and accept the').click();
-            await page.getByRole('button', { name: 'Next' }).click();
-            await page.locator('#company_name').click();
+        const WC = `WC${envVariableLetter}`;
+        companyName = `${WC} ${contextName} ${runCount} ${totalVehicles}`;
+        await page.locator('#company_name').fill(companyName);
 
-            const WC = `WC${envVariableLetter}`;
-            companyName = `${WC} ${contextName} ${runCount} ${totalVehicles}`;
-            await page.locator('#company_name').fill(companyName);
+        const street = '123 Main St';
+        const city = 'Cleveland';
+        const postalCode = randomDigits(5);
 
-            const street = '123 Main St';
-            const city = 'Cleveland';
-            const postalCode = randomDigits(5);
+        await page.getByRole('textbox', { name: 'Street' }).fill(street);
+        await page.getByRole('textbox', { name: 'City' }).fill(city);
+        await page.getByRole('button', { name: 'Country' }).click();
+        await page.getByRole('link', { name: 'United States' }).click();
+        await page.getByRole('textbox', { name: 'Postal Code' }).fill(postalCode);
+        await page.getByRole('button', { name: 'State/Province' }).click();
+        await page.getByRole('link', { name: 'Alabama' }).click();
+        await page.getByRole('textbox', { name: 'Total Vehicles' }).fill(totalVehicles.toString());
+        await page.getByRole('button', { name: 'Go To Dashboard' }).click();
+        await page.waitForTimeout(10000);
+        await page.waitForLoadState('networkidle');
 
-            await page.getByRole('textbox', { name: 'Street' }).fill(street);
-            await page.getByRole('textbox', { name: 'City' }).fill(city);
-            await page.getByRole('button', { name: 'Country' }).click();
-            await page.getByRole('link', { name: 'United States' }).click();
-            await page.getByRole('textbox', { name: 'Postal Code' }).fill(postalCode);
-            await page.getByRole('button', { name: 'State/Province' }).click();
-            await page.getByRole('link', { name: 'Alabama' }).click();
-            await page.getByRole('textbox', { name: 'Total Vehicles' }).fill(totalVehicles.toString());
-            await page.getByRole('button', { name: 'Go To Dashboard' }).click();
-            await page.waitForTimeout(10000);
-            await page.waitForLoadState('networkidle');
-
-            summary.push({ run: runCount, email, company: companyName, cfs: totalVehicles, status: 'SUCCESS' });
-        } catch (error: any) {
-            summary.push({ run: runCount, email, company: companyName, cfs: totalVehicles, status: 'FAILED', error: error?.message || String(error) });
-        } finally {
-            printSummary();
-        }
-    });
+        summary.push({ run: runCount, email, company: companyName, cfs: totalVehicles, status: 'SUCCESS' });
+    } catch (error: any) {
+        summary.push({ run: runCount, email, company: companyName, cfs: totalVehicles, status: 'FAILED', error: error?.message || String(error) });
+    } finally {
+        printSummary();
+    }
+});
 }
 
 // Print summary to console

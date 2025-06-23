@@ -1,0 +1,141 @@
+
+=== Summary Entry: 2025-06-11T05:50:09.762Z ===
+Run #4: Email: wasim.khan+ent120window_4@gomotive.com, Company: WCP Ent120Window 4 152, CFS: 152, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:50:11.687Z ===
+Run #1: Email: wasim.khan+ent120window_1@gomotive.com, Company: WCP Ent120Window 1 50, CFS: 50, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:50:20.738Z ===
+Run #3: Email: wasim.khan+ent120window_3@gomotive.com, Company: WCP Ent120Window 3 150, CFS: 150, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:50:24.156Z ===
+Run #2: Email: wasim.khan+ent120window_2@gomotive.com, Company: WCP Ent120Window 2 100, CFS: 100, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:54:44.329Z ===
+Run #3: Email: wasim.khan+ent120days_3@gomotive.com, Company: WCP ENT120Days 3 150, CFS: 150, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:54:44.484Z ===
+Run #2: Email: wasim.khan+ent120days_2@gomotive.com, Company: WCP ENT120Days 2 100, CFS: 100, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:54:44.646Z ===
+Run #4: Email: wasim.khan+ent120days_4@gomotive.com, Company: WCP ENT120Days 4 152, CFS: 152, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-11T05:54:44.754Z ===
+Run #1: Email: wasim.khan+ent120days_1@gomotive.com, Company: WCP ENT120Days 1 50, CFS: 50, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-16T11:38:57.583Z ===
+Run #1: Email: wasim.khan+wave3_1@gomotive.com, Company: WCP Wave3 1 1, CFS: 1, Status: SUCCESS
+Run #2: Email: wasim.khan+wave3_2@gomotive.com, Company: WCP Wave3 2 10, CFS: 10, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-16T11:38:59.896Z ===
+Run #7: Email: wasim.khan+wave3_7@gomotive.com, Company: WCP Wave3 7 10, CFS: 10, Status: SUCCESS
+Run #8: Email: wasim.khan+wave3_8@gomotive.com, Company: WCP Wave3 8 49, CFS: 49, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-16T11:38:59.989Z ===
+Run #5: Email: wasim.khan+wave3_5@gomotive.com, Company: WCP Wave3 5 150, CFS: 150, Status: SUCCESS
+Run #6: Email: wasim.khan+wave3_6@gomotive.com, Company: WCP Wave3 6 1, CFS: 1, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-16T11:39:00.165Z ===
+Run #9: Email: wasim.khan+wave3_9@gomotive.com, Company: WCP Wave3 9 55, CFS: 55, Status: SUCCESS
+Run #10: Email: wasim.khan+wave3_10@gomotive.com, Company: WCP Wave3 10 150, CFS: 150, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-16T11:39:00.289Z ===
+Run #3: Email: wasim.khan+wave3_3@gomotive.com, Company: WCP Wave3 3 49, CFS: 49, Status: SUCCESS
+Run #4: Email: wasim.khan+wave3_4@gomotive.com, Company: WCP Wave3 4 55, CFS: 55, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-17T15:35:32.574Z ===
+Run #1: Email: wasim.khan+wave3nooverlap_1@gomotive.com, Company: WCP Wave3NoOverlap 1 1, CFS: 1, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-17T19:38:27.415Z ===
+Run #1: Email: wasim.khan+fhcampaign_1@gomotive.com, Company: WCP FHCampaign 1 1, CFS: 1, Status: SUCCESS
+====================================
+
+=== Summary Entry: 2025-06-18T07:25:07.142Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:25:07.296Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:25:07.541Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:25:07.822Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:26:22.460Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:26:22.474Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:26:22.470Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:26:22.471Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:27:29.013Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:27:29.015Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:27:29.013Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:27:29.017Z ===
+====================================
+
+=== Summary Entry: 2025-06-18T07:28:19.496Z ===
+Run #2: Email: wasim.khan+eoqlead_2@gomotive.com, Company: , CFS: 50, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('I have read and accept the')[22m
+
+====================================
+
+=== Summary Entry: 2025-06-18T07:28:20.429Z ===
+Run #4: Email: wasim.khan+eoqlead_4@gomotive.com, Company: , CFS: 999, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('I have read and accept the')[22m
+
+====================================
+
+=== Summary Entry: 2025-06-18T07:28:20.806Z ===
+Run #1: Email: wasim.khan+eoqlead_1@gomotive.com, Company: , CFS: 1, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('I have read and accept the')[22m
+
+====================================
+
+=== Summary Entry: 2025-06-18T07:28:21.032Z ===
+Run #3: Email: wasim.khan+eoqlead_3@gomotive.com, Company: , CFS: 150, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('I have read and accept the')[22m
+
+====================================
+
+=== Summary Entry: 2025-06-19T11:23:04.568Z ===
+====================================
+
+=== Summary Entry: 2025-06-19T11:24:36.546Z ===
+====================================
+
+=== Summary Entry: 2025-06-19T11:26:36.285Z ===
+====================================
+
+=== Summary Entry: 2025-06-19T11:35:08.531Z ===
+====================================

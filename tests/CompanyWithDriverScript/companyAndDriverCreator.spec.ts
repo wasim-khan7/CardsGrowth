@@ -7,19 +7,20 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // ================= USER CONFIGURATION =================
-const totalCompanies = 1;
+const totalCompanies = 15;
 const driversPerCompany = 5;
-const runStartCount = 10;
+const runStartCount = 1;
 const environment = 'preview'; // 'preview' or 'staging'
-const CompanyNameContext = 'testscript3';
+const CompanyNameContext = 'RapidUpsells';
 const driverContext = ''; // Leave empty to fallback to CompanyNameContext
-const CFS = [1, 5, 51, 999]; // Must match totalCompanies count if useCFSArray is true
-const driverCreation = true;
+const CFS = [1,9,10,11,49,50, 51,149,149,150,151,151, 999, 1000,1500]; // Must match totalCompanies count if useCFSArray is true
+
 const summaryFileName = `compWithDrivers_summary_${environment}.txt`;
 
 const maxDriverThreads = 5;
 
 // ---------------- FLAGS ----------------
+const driverCreation = false;
 const useCFSArray = true;
 const useContextName = true;
 const useWasimEmailAsBaseEmail = true;
