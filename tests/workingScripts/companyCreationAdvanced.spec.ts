@@ -62,7 +62,7 @@ for (let i = 0; i < totalRuns; i++) {
     const totalVehicles = useCFSArray ? CFS[i] : Number(randomDigits(2)) + 1;
 
     const contextName = useContextName ? CompanyNameContext : randomAlphaNumeric(8);
-    const baseEmail = useWasimEmailAsBaseEmail ? 'parag.goyal@gomotive.com' : customBaseEmail;
+    const baseEmail = useWasimEmailAsBaseEmail ? 'wasim.khan@gomotive.com' : customBaseEmail;
 
 test(`Company Creation Run ${runCount}`, async ({ browser }) => {
     let email = '';

@@ -10,3 +10,5 @@ node_modules/
 /tests/example.spec.ts
 /tests/save.txt
 /tests/curls.txt
+/tests/workingScripts/summaryFiles/*
+./other_files
