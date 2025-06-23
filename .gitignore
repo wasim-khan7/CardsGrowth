@@ -12,3 +12,4 @@ node_modules/
 /tests/curls.txt
 /tests/workingScripts/summaryFiles/*
 ./other_files
+./standaloneScripts/summaryFiles/*
