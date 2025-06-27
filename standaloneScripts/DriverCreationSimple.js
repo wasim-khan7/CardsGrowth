@@ -7,10 +7,10 @@ const path = require('path');
 const DRIVER_CREATION_THREADS = 4; // adjust as needed
 
 const config = {
-  driverContext: 'san23jun',
-  numDrivers: 10,
+  driverContext: 'san24jun',
+  numDrivers: 5,
   startCount: 1,
-  authToken: 'NWZiNjdmN2Y2Yjc5NDJlZWNiZDA1Y2U0MmZlMmRjOTBlOGIyMTQwNThkZDYwOTQyYWUzZTA2MjlkMjIwZWNkZmZjNGJlMGJhNzBiMWVmZTQxOGY5NWViN2YxZjk5NWY5NGRkMjU5MDhkM2IzYmY3Ng==',
+  authToken: 'OGQ3NjVhYjkwNjFjMGQ5ZDJkOTAwMmRjMWJlZDdlM2IzNTMyMTM0NGViZDkxODdmOWE3OGY0OWQ3NTk4YTYxZTJiYmE0YzA3M2JjZjcyYzc3NDk4NWNlZDJlMjY1MDA4NTNhODAzZDhlMGQyMWY4Nw==',
   environment: 'staging', // or 'preview'
 };
 

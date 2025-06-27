@@ -1,141 +1,335 @@
 
-=== Summary Entry: 2025-06-11T05:50:09.762Z ===
-Run #4: Email: wasim.khan+ent120window_4@gomotive.com, Company: WCP Ent120Window 4 152, CFS: 152, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:00:16.872Z ===
+Run #32:
+  Email: wasim.khan+scalinitial_32@gomotive.com
+  Company: WCp SCalInitial 32 1000
+  CFS: 1000
+  Status: SUCCESS
+  Company ID: 517720
+  Dispatcher ID: 4357290
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357290
 ====================================
 
-=== Summary Entry: 2025-06-11T05:50:11.687Z ===
-Run #1: Email: wasim.khan+ent120window_1@gomotive.com, Company: WCP Ent120Window 1 50, CFS: 50, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:02:31.063Z ===
+Run #22:
+  Email: wasim.khan+scalinitial_22@gomotive.com
+  Company: WCp SCalInitial 22 99
+  CFS: 99
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #23:
+  Email: wasim.khan+scalinitial_23@gomotive.com
+  Company: WCp SCalInitial 23 100
+  CFS: 100
+  Status: SUCCESS
+  Company ID: 517760
+  Dispatcher ID: 4357330
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357330
+Run #24:
+  Email: wasim.khan+scalinitial_24@gomotive.com
+  Company: WCp SCalInitial 24 101
+  CFS: 101
+  Status: SUCCESS
+  Company ID: 517780
+  Dispatcher ID: 4357350
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357350
+Run #25:
+  Email: wasim.khan+scalinitial_25@gomotive.com
+  Company: WCp SCalInitial 25 149
+  CFS: 149
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #26:
+  Email: wasim.khan+scalinitial_26@gomotive.com
+  Company: WCp SCalInitial 26 150
+  CFS: 150
+  Status: FAILED
+  Error: Validate response not found or could not parse.
 ====================================
 
-=== Summary Entry: 2025-06-11T05:50:20.738Z ===
-Run #3: Email: wasim.khan+ent120window_3@gomotive.com, Company: WCP Ent120Window 3 150, CFS: 150, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:02:31.203Z ===
+Run #17:
+  Email: wasim.khan+scalinitial_17@gomotive.com
+  Company: WCp SCalInitial 17 35
+  CFS: 35
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #18:
+  Email: wasim.khan+scalinitial_18@gomotive.com
+  Company: WCp SCalInitial 18 40
+  CFS: 40
+  Status: SUCCESS
+  Company ID: 517770
+  Dispatcher ID: 4357340
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357340
+Run #19:
+  Email: wasim.khan+scalinitial_19@gomotive.com
+  Company: WCp SCalInitial 19 49
+  CFS: 49
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #20:
+  Email: wasim.khan+scalinitial_20@gomotive.com
+  Company: WCp SCalInitial 20 50
+  CFS: 50
+  Status: SUCCESS
+  Company ID: 517840
+  Dispatcher ID: 4357410
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357410
+Run #21:
+  Email: wasim.khan+scalinitial_21@gomotive.com
+  Company: WCp SCalInitial 21 51
+  CFS: 51
+  Status: FAILED
+  Error: Validate response not found or could not parse.
 ====================================
 
-=== Summary Entry: 2025-06-11T05:50:24.156Z ===
-Run #2: Email: wasim.khan+ent120window_2@gomotive.com, Company: WCP Ent120Window 2 100, CFS: 100, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:02:43.785Z ===
+Run #12:
+  Email: wasim.khan+scalinitial_12@gomotive.com
+  Company: WCp SCalInitial 12 1
+  CFS: 1
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #13:
+  Email: wasim.khan+scalinitial_13@gomotive.com
+  Company: WCp SCalInitial 13 5
+  CFS: 5
+  Status: SUCCESS
+  Company ID: 517740
+  Dispatcher ID: 4357310
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357310
+Run #14:
+  Email: wasim.khan+scalinitial_14@gomotive.com
+  Company: WCp SCalInitial 14 10
+  CFS: 10
+  Status: SUCCESS
+  Company ID: 517800
+  Dispatcher ID: 4357370
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357370
+Run #15:
+  Email: wasim.khan+scalinitial_15@gomotive.com
+  Company: WCp SCalInitial 15 15
+  CFS: 15
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #16:
+  Email: wasim.khan+scalinitial_16@gomotive.com
+  Company: WCp SCalInitial 16 30
+  CFS: 30
+  Status: SUCCESS
+  Company ID: 517880
+  Dispatcher ID: 4357450
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357450
 ====================================
 
-=== Summary Entry: 2025-06-11T05:54:44.329Z ===
-Run #3: Email: wasim.khan+ent120days_3@gomotive.com, Company: WCP ENT120Days 3 150, CFS: 150, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:02:44.642Z ===
+Run #27:
+  Email: wasim.khan+scalinitial_27@gomotive.com
+  Company: WCp SCalInitial 27 151
+  CFS: 151
+  Status: SUCCESS
+  Company ID: 517730
+  Dispatcher ID: 4357300
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357300
+Run #28:
+  Email: wasim.khan+scalinitial_28@gomotive.com
+  Company: WCp SCalInitial 28 200
+  CFS: 200
+  Status: SUCCESS
+  Company ID: 517750
+  Dispatcher ID: 4357320
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357320
+Run #29:
+  Email: wasim.khan+scalinitial_29@gomotive.com
+  Company: WCp SCalInitial 29 251
+  CFS: 251
+  Status: SUCCESS
+  Company ID: 517790
+  Dispatcher ID: 4357380
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357380
+Run #30:
+  Email: wasim.khan+scalinitial_30@gomotive.com
+  Company: WCp SCalInitial 30 500
+  CFS: 500
+  Status: FAILED
+  Error: Validate response not found or could not parse.
+Run #31:
+  Email: wasim.khan+scalinitial_31@gomotive.com
+  Company: WCp SCalInitial 31 999
+  CFS: 999
+  Status: SUCCESS
+  Company ID: 517890
+  Dispatcher ID: 4357460
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357460
 ====================================
 
-=== Summary Entry: 2025-06-11T05:54:44.484Z ===
-Run #2: Email: wasim.khan+ent120days_2@gomotive.com, Company: WCP ENT120Days 2 100, CFS: 100, Status: SUCCESS
+=== Company Creation Summary: 2025-06-27T16:14:44.381Z ===
+Run #3:
+  Email: wasim.khan+testingscript1_3@gomotive.com
+  Company: WCp testingScript1 3 10
+  CFS: 10
+  Status: SUCCESS
+  Company ID: undefined
+  Dispatcher ID: undefined
+  Dispatcher Admin Link: undefined
 ====================================
 
-=== Summary Entry: 2025-06-11T05:54:44.646Z ===
-Run #4: Email: wasim.khan+ent120days_4@gomotive.com, Company: WCP ENT120Days 4 152, CFS: 152, Status: SUCCESS
+=== Company Creation Summary: 2025-06-27T16:14:44.820Z ===
+Run #1:
+  Email: wasim.khan+testingscript1_1@gomotive.com
+  Company: WCp testingScript1 1 1
+  CFS: 1
+  Status: SUCCESS
+  Company ID: undefined
+  Dispatcher ID: undefined
+  Dispatcher Admin Link: undefined
 ====================================
 
-=== Summary Entry: 2025-06-11T05:54:44.754Z ===
-Run #1: Email: wasim.khan+ent120days_1@gomotive.com, Company: WCP ENT120Days 1 50, CFS: 50, Status: SUCCESS
+=== Company Creation Summary: 2025-06-27T16:14:47.149Z ===
+Run #2:
+  Email: wasim.khan+testingscript1_2@gomotive.com
+  Company: WCp testingScript1 2 5
+  CFS: 5
+  Status: SUCCESS
+  Company ID: undefined
+  Dispatcher ID: undefined
+  Dispatcher Admin Link: undefined
 ====================================
 
-=== Summary Entry: 2025-06-16T11:38:57.583Z ===
-Run #1: Email: wasim.khan+wave3_1@gomotive.com, Company: WCP Wave3 1 1, CFS: 1, Status: SUCCESS
-Run #2: Email: wasim.khan+wave3_2@gomotive.com, Company: WCP Wave3 2 10, CFS: 10, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:20:18.687Z ===
+Run #1:
+  Email: wasim.khan+testingscript2_1@gomotive.com
+  Company: WCp testingScript2 1 1
+  CFS: 1
+  Status: SUCCESS
+  Company ID: 518570
+  Dispatcher ID: 4357860
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357860
 ====================================
 
-=== Summary Entry: 2025-06-16T11:38:59.896Z ===
-Run #7: Email: wasim.khan+wave3_7@gomotive.com, Company: WCP Wave3 7 10, CFS: 10, Status: SUCCESS
-Run #8: Email: wasim.khan+wave3_8@gomotive.com, Company: WCP Wave3 8 49, CFS: 49, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:22:05.214Z ===
+Run #2:
+  Email: wasim.khan+testingscript3_2@gomotive.com
+  Company: WCp testingScript3 2 5
+  CFS: 5
+  Status: SUCCESS
+  Company ID: 518590
+  Dispatcher ID: 4357880
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357880
 ====================================
 
-=== Summary Entry: 2025-06-16T11:38:59.989Z ===
-Run #5: Email: wasim.khan+wave3_5@gomotive.com, Company: WCP Wave3 5 150, CFS: 150, Status: SUCCESS
-Run #6: Email: wasim.khan+wave3_6@gomotive.com, Company: WCP Wave3 6 1, CFS: 1, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:22:05.371Z ===
+Run #3:
+  Email: wasim.khan+testingscript3_3@gomotive.com
+  Company: WCp testingScript3 3 10
+  CFS: 10
+  Status: SUCCESS
+  Company ID: 518580
+  Dispatcher ID: 4357870
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357870
 ====================================
 
-=== Summary Entry: 2025-06-16T11:39:00.165Z ===
-Run #9: Email: wasim.khan+wave3_9@gomotive.com, Company: WCP Wave3 9 55, CFS: 55, Status: SUCCESS
-Run #10: Email: wasim.khan+wave3_10@gomotive.com, Company: WCP Wave3 10 150, CFS: 150, Status: SUCCESS
+=== Summary Entry: 2025-06-27T16:22:07.110Z ===
+Run #1:
+  Email: wasim.khan+testingscript3_1@gomotive.com
+  Company: WCp testingScript3 1 1
+  CFS: 1
+  Status: SUCCESS
+  Company ID: 518600
+  Dispatcher ID: 4357890
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357890
 ====================================
-
-=== Summary Entry: 2025-06-16T11:39:00.289Z ===
-Run #3: Email: wasim.khan+wave3_3@gomotive.com, Company: WCP Wave3 3 49, CFS: 49, Status: SUCCESS
-Run #4: Email: wasim.khan+wave3_4@gomotive.com, Company: WCP Wave3 4 55, CFS: 55, Status: SUCCESS
-====================================
-
-=== Summary Entry: 2025-06-17T15:35:32.574Z ===
-Run #1: Email: wasim.khan+wave3nooverlap_1@gomotive.com, Company: WCP Wave3NoOverlap 1 1, CFS: 1, Status: SUCCESS
-====================================
-
-=== Summary Entry: 2025-06-17T19:38:27.415Z ===
-Run #1: Email: wasim.khan+fhcampaign_1@gomotive.com, Company: WCP FHCampaign 1 1, CFS: 1, Status: SUCCESS
-====================================
-
-=== Summary Entry: 2025-06-18T07:25:07.142Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:25:07.296Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:25:07.541Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:25:07.822Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:26:22.460Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:26:22.474Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:26:22.470Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:26:22.471Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:27:29.013Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:27:29.015Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:27:29.013Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:27:29.017Z ===
-====================================
-
-=== Summary Entry: 2025-06-18T07:28:19.496Z ===
-Run #2: Email: wasim.khan+eoqlead_2@gomotive.com, Company: , CFS: 50, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+=== Summary Entry: 2025-06-27T16:38:38.679Z ===
+Run #1:
+  Email: wasim.khan+testingScript5_1@gomotive.com
+  Company: WCp testingScript5 1 1
+  CFS: 1
+  Status: FAILED
+  Error: page.fill: Target page, context or browser has been closed
 Call log:
-[2m  - waiting for getByText('I have read and accept the')[22m
+[2m  - waiting for locator('input[name="first_name"]')[22m
 
 ====================================
 
-=== Summary Entry: 2025-06-18T07:28:20.429Z ===
-Run #4: Email: wasim.khan+eoqlead_4@gomotive.com, Company: , CFS: 999, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+Final Statistics:
+Total Runs: 3
+Success: 0
+Failed: 1
+Partial Failure: 0
+====================================
+
+=== Summary Entry: 2025-06-27T16:38:39.140Z ===
+Run #3:
+  Email: wasim.khan+testingScript5_3@gomotive.com
+  Company: WCp testingScript5 3 10
+  CFS: 10
+  Status: FAILED
+  Error: page.fill: Target page, context or browser has been closed
 Call log:
-[2m  - waiting for getByText('I have read and accept the')[22m
+[2m  - waiting for locator('input[name="first_name"]')[22m
 
 ====================================
 
-=== Summary Entry: 2025-06-18T07:28:20.806Z ===
-Run #1: Email: wasim.khan+eoqlead_1@gomotive.com, Company: , CFS: 1, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
+Final Statistics:
+Total Runs: 3
+Success: 0
+Failed: 1
+Partial Failure: 0
+====================================
+
+=== Summary Entry: 2025-06-27T16:38:40.106Z ===
+Run #2:
+  Email: wasim.khan+testingScript5_2@gomotive.com
+  Company: WCp testingScript5 2 5
+  CFS: 5
+  Status: FAILED
+  Error: page.fill: Target page, context or browser has been closed
 Call log:
-[2m  - waiting for getByText('I have read and accept the')[22m
+[2m  - waiting for locator('input[name="first_name"]')[22m
 
 ====================================
 
-=== Summary Entry: 2025-06-18T07:28:21.032Z ===
-Run #3: Email: wasim.khan+eoqlead_3@gomotive.com, Company: , CFS: 150, Status: FAILED, Error: locator.click: Target page, context or browser has been closed
-Call log:
-[2m  - waiting for getByText('I have read and accept the')[22m
+Final Statistics:
+Total Runs: 3
+Success: 0
+Failed: 1
+Partial Failure: 0
+====================================
+
+
+=== Company Creation Summary: 2025-06-27T16:51:56.360Z ===
+Run #1:
+  Email: wasim.khan+testingscript5_1@gomotive.com
+  Company: WCp testingScript5 1 1
+  CFS: 1
+  Status: SUCCESS
+  Company ID: 518950
+  Dispatcher ID: 4357960
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357960
 
 ====================================
 
-=== Summary Entry: 2025-06-19T11:23:04.568Z ===
+=== Company Creation Summary: 2025-06-27T16:51:56.982Z ===
+Run #3:
+  Email: wasim.khan+testingscript5_3@gomotive.com
+  Company: WCp testingScript5 3 10
+  CFS: 10
+  Status: SUCCESS
+  Company ID: 518940
+  Dispatcher ID: 4357950
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357950
+
 ====================================
 
-=== Summary Entry: 2025-06-19T11:24:36.546Z ===
-====================================
+=== Company Creation Summary: 2025-06-27T16:51:58.554Z ===
+Run #2:
+  Email: wasim.khan+testingscript5_2@gomotive.com
+  Company: WCp testingScript5 2 5
+  CFS: 5
+  Status: SUCCESS
+  Company ID: 518960
+  Dispatcher ID: 4357940
+  Dispatcher Admin Link: https://account.p.k2labs.org/admin/dispatchers/4357940
 
-=== Summary Entry: 2025-06-19T11:26:36.285Z ===
-====================================
-
-=== Summary Entry: 2025-06-19T11:35:08.531Z ===
 ====================================

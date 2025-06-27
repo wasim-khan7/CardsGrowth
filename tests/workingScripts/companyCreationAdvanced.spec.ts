@@ -6,10 +6,10 @@ import * as path from 'path';
 
 // ---- User configuration section ----
 let totalRuns = 1;
-let runStartCount = 2;
-let environment = 'staging'; // 'preview' or 'staging'
-let CompanyNameContext = 'wtest';
-const CFS = [1, 50, 150, 999];
+let runStartCount = 1;
+let environment = 'estimatedsavings'; // 'preview' or 'staging'
+let CompanyNameContext = '';
+const CFS = [10, 50, 150, 999];
 
 // Flags
 const useCFSArray = true;
