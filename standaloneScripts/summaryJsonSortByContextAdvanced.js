@@ -1,35 +1,42 @@
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 // ==============================
-// CONFIGURATION OBJECT
+// 📦 CONFIGURATION
 // ==============================
 const config = {
   context: {
-    useCustom: true,               // If true, only process entries with this context name
-    name: 'savingscalculator',     // Used if useCustom is true
-    extractAll: false              // If true, process all contexts (ignored if useCustom = true)
+    useCustom: true,                         // Only include entries whose context starts with this name
+    name: 'scgroup1_local',                  // Prefix to match in context (e.g. scgroup1_local_1)
+    extractAll: false                        // If true and useCustom = false, process all contexts
   },
   output: {
-    createFile: true,              // Write sorted/bucketed output files
-    prefix: '',                    // Optional file name prefix
-    logToTerminal: true            // Log extracted or sorted entries to terminal
+    createOutputFile: true,                  // Write JSON output to file
+    logExtractedDataToConsole: true          // Show the extracted data in terminal
   },
   extraction: {
-    enabled: true,                 // Enable extraction of specific fields
-    onlyExtract: true,            // If true, extract fields only (no sorting, no output files)
-    fields: [                      // Fields to extract from each summary item
+    enabled: true,                           // Extract only specific fields from each summary item
+    onlyExtractAndShowDontCreateOutputFile: true,  // Only extract & log, skip file creation
+    fields: [                                // Fields to extract from each summary item
       'company',
       'email',
       'company_id',
       'dispatcher_link'
     ]
   },
-  inputFile: '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/PlaywrightAutomation/tests/workingScripts/summaryFiles/company_creation_preview.json' // Relative or absolute path
+  csvExport: {
+    exportToCSVasWell: true,                 // Export data to CSV
+    csvOptions: {
+      fullObjectToCSV: false,                // If true, dump entire object into CSV
+      onlyExtractedToCSV: true               // If true, dump only the extracted fields
+    }
+  },
+  inputFile: '/Users/wasim.khan/VSCode/MyPlaywrightAndScripts/PlaywrightAutomation/tests/workingScripts/summaryFiles/company_creation_preview.json'
 };
 
 // ==============================
-// LOAD INPUT FILE
+// 📂 Load Input
 // ==============================
 let input;
 try {
@@ -39,15 +46,15 @@ try {
   const raw = fs.readFileSync(inputPath, 'utf8');
   input = JSON.parse(raw);
 } catch (err) {
-  console.error(`Failed to load input file at '${config.inputFile}':`, err.message);
+  console.error(`❌ Failed to load input file at '${config.inputFile}':`, err.message);
   process.exit(1);
 }
 
 // ==============================
-// UTILITY FUNCTIONS
+// 🛠️ Utilities
 // ==============================
 const extractContext = email => {
-  const match = email.match(/\+([a-zA-Z]+)_\d+@/);
+  const match = email.match(/\+([^@]+)@/);
   return match ? match[1] : null;
 };
 
@@ -66,10 +73,24 @@ const extractFieldsFromEntry = (entry, fields) => {
   return result;
 };
 
+const convertToCSV = (dataArray, fileName) => {
+  if (!dataArray.length) return;
+
+  const headers = Object.keys(dataArray[0]);
+  const rows = dataArray.map(obj =>
+    headers.map(header => (obj[header] ?? '')).join(',')
+  );
+
+  const csvContent = [headers.join(','), ...rows].join(os.EOL);
+  fs.writeFileSync(path.join(__dirname, fileName), csvContent);
+  console.log(`📄 CSV file written: ${fileName}`);
+};
+
 // ==============================
-// GROUP BY CONTEXT
+// 🧠 Context Grouping
 // ==============================
 const contextGroups = {};
+const allExtracted = [];
 
 for (const entry of input) {
   for (const item of entry.summary) {
@@ -77,7 +98,7 @@ for (const entry of input) {
     const run = extractRun(item.email);
     if (!context || run === null) continue;
 
-    if (config.context.useCustom && context !== config.context.name) continue;
+    if (config.context.useCustom && !context.startsWith(config.context.name)) continue;
 
     if (!contextGroups[context]) contextGroups[context] = [];
 
@@ -91,12 +112,12 @@ for (const entry of input) {
 }
 
 if (!Object.keys(contextGroups).length) {
-  console.error('No matching context entries found based on config.');
+  console.error('⚠️ No matching context entries found based on config.');
   process.exit(1);
 }
 
 // ==============================
-// PROCESS EACH CONTEXT GROUP
+// 📊 Process Each Group
 // ==============================
 Object.entries(contextGroups).forEach(([context, entries]) => {
   const sortedByTime = entries.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
@@ -119,50 +140,70 @@ Object.entries(contextGroups).forEach(([context, entries]) => {
     if (!addedToBucket) buckets.push([item]);
   }
 
-  // ==============================
-  // 🧾 PROCESS EACH BUCKET
-  // ==============================
+  // 🧾 Handle Each Bucket
   buckets.forEach((bucket, idx) => {
     const sortedBucket = bucket.sort((a, b) => a.run - b.run);
 
-    // Extraction Mode
     if (config.extraction.enabled) {
       const extracted = sortedBucket.map(item =>
         extractFieldsFromEntry(item, config.extraction.fields)
       );
+      allExtracted.push(...extracted);
 
-      if (config.output.logToTerminal) {
-        console.log(`\n📄 Extracted fields [${context}]${buckets.length > 1 ? ` batch ${idx + 1}` : ''}:`);
-        console.table(extracted);
-      }
-
-      if (config.extraction.onlyExtract) return;
+      if (config.extraction.onlyExtractAndShowDontCreateOutputFile) return;
     }
 
-    // Structured Output (if not onlyExtract mode)
+    // File Output (if not extraction-only mode)
     const output = {
       timestamp: new Date().toISOString(),
       environment: sortedBucket[0]?.environment || 'unknown',
       summary: sortedBucket
     };
 
-    if (config.output.logToTerminal && !config.extraction.enabled) {
-      console.log(`\n🗂️ Sorted [${context}]${buckets.length > 1 ? ` batch ${idx + 1}` : ''}:`);
-      console.table(sortedBucket.map(e => ({
-        run: e.run,
-        company: e.company,
-        email: e.email
-      })));
-    }
-
-    // Output to File
-    if (config.output.createFile) {
+    if (config.output.createOutputFile) {
       const date = formatDate(sortedBucket[0].timestamp);
       const batchTag = buckets.length > 1 ? `_batch${idx + 1}` : '';
-      const fileName = `${config.output.prefix}${date}_${context}_sorted${batchTag}.json`;
+      const fileName = `${date}_${context}_sorted${batchTag}.json`;
 
       fs.writeFileSync(path.join(__dirname, fileName), JSON.stringify(output, null, 2));
-      console.log(`File written: ${fileName}`);
+      console.log(`📁 JSON file written: ${fileName}`);
     }
   });
 });
+
+// ==============================
+// 📦 Combined Output
+// ==============================
+if (
+  config.output.logExtractedDataToConsole &&
+  config.extraction.enabled &&
+  allExtracted.length > 0
+) {
+  console.log(`\n📄 All Extracted Fields Combined:`);
+  console.table(allExtracted);
+}
+
+// ==============================
+// 📤 Export to CSV
+// ==============================
+if (
+  config.csvExport.exportToCSVasWell &&
+  allExtracted.length > 0 &&
+  config.extraction.enabled
+) {
+  const dateTag = new Date().toISOString().split('T')[0];
+  const contextTag = config.context.useCustom ? config.context.name : 'all';
+
+  if (config.csvExport.csvOptions.onlyExtractedToCSV) {
+    convertToCSV(allExtracted, `${dateTag}_${contextTag}_extracted.csv`);
+  }
+
+  if (config.csvExport.csvOptions.fullObjectToCSV) {
+    // Optional: combine full objects from all entries for CSV (slower, optional)
+    const fullObjects = [];
+    Object.values(contextGroups).forEach(group =>
+      group.forEach(item => fullObjects.push(item))
+    );
+    convertToCSV(fullObjects, `${dateTag}_${contextTag}_fullObjects.csv`);
+  }
+}

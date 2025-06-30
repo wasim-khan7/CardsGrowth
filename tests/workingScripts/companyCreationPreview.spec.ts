@@ -4,11 +4,11 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // ---- User configuration section ----
-let totalRuns = 10;
-let runStartCount = 8;
+let totalRuns = 5;
+let runStartCount = 1;
 let environment = 'preview'; // 'preview' or 'staging'
-let CompanyNameContext = 'SavingsCalculator';
-const CFS = [1, 5, 10,15,20,25,35,49,50,51,100,149,150,151,300,999,1000];
+let CompanyNameContext = 'SCGroup1_Local';
+const CFS = [1,5,6,8,9];
 
 // Flags
 const useCFSArray = true;
